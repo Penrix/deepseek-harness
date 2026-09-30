@@ -153,3 +153,9 @@ Docs accompany every code change: update affected README and JSDoc contracts tog
 ## Vendoring policy
 
 `vendor/` packages are pinned source copies (manifest with upstream SHAs in [vendor/README.md](vendor/README.md)). Update via the sync procedure there; re-apply or retire the logged local modifications; rerun `pnpm run test && pnpm run build`.
+
+## Penrix AI coding overlay
+
+For Penrix-owned work in this fork, also read [`PENRIX-CODING.md`](PENRIX-CODING.md) before making production-code changes.
+
+That overlay adds the non-programmer Owner / Coding Agent authority split, mandatory Reality Reconnaissance before coding, a POST Reality Audit against the actual final diff, evidence-backed complexity admission, and honest runtime evidence classes. It supplements the repository rules above and does not replace more specific architecture, build, security, testing, contribution, or release requirements.
